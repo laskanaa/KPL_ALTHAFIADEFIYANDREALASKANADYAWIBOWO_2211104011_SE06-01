@@ -1,0 +1,11 @@
+1.Nama
+ 
+Program ini dirancang untuk menerima input nama dari pengguna dan menampilkan pesan selamat datang. Pertama, program meminta pengguna memasukkan namanya dengan menampilkan teks "Masukkan nama Anda:" menggunakan Console.Write(). Setelah itu, program membaca input yang dimasukkan pengguna melalui Console.ReadLine() dan menyimpannya dalam variabel nama. Selanjutnya, program mencetak pesan selamat datang dengan format "Selamat datang, Altha!" menggunakan string interpolation ($"{nama}"). Dengan pendekatan ini, program dapat menampilkan respons yang sesuai berdasarkan input pengguna secara dinamis.
+
+2.Array
+ 
+Program ini membuat array bertipe int dengan 50 elemen, di mana setiap elemen diisi dengan nilai yang sama dengan indeksnya. Kemudian, program melakukan iterasi melalui array untuk mencetak setiap elemen dengan aturan tertentu. Jika indeks merupakan kelipatan 2 dan 3 sekaligus, maka program mencetak angka dengan tambahan string #$#$, sedangkan jika hanya kelipatan 2, ditambahkan ##, dan jika hanya kelipatan 3, ditambahkan $$. Untuk indeks yang tidak termasuk dalam kondisi tersebut, program hanya mencetak angkanya saja. Dengan pendekatan ini, program dapat secara otomatis mengidentifikasi dan menampilkan elemen sesuai pola yang telah ditentukan.
+
+3.Array
+ 
+Program ini meminta pengguna memasukkan angka antara 1 hingga 10.000, kemudian mengonversi input yang berupa string menjadi integer menggunakan Convert.ToInt32(nilaiString). Setelah itu, program memeriksa apakah angka tersebut merupakan bilangan prima dengan memanggil fungsi IsPrima(int angka). Fungsi ini menentukan bilangan prima dengan mengecek apakah angka tersebut memiliki faktor selain 1 dan dirinya sendiri. Pengecekan dilakukan dengan iterasi dari angka 2 hingga akar kuadrat dari angka yang dimasukkan, karena faktor suatu bilangan tidak akan lebih besar dari akar kuadratnya. Jika ditemukan pembagi selain 1 dan angka itu sendiri, maka angka tersebut bukan bilangan prima. Program kemudian mencetak hasilnya dalam format "Angka X merupakan bilangan prima" atau "Angka X bukan merupakan bilangan prima" sesuai hasil pengecekan.
